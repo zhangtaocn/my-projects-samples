@@ -25,7 +25,7 @@ public class StudentController {
 
 	@GetMapping("/all")
 	public Object all() {
-		int size = 9;
+		int size = 2;
 		List<TestData> testDataList = new ArrayList<>();
 		for (int i = 0; i < size; i++) {
 			String str = i + "条";
