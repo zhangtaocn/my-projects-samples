@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: scott
+    password: oracle
+mybatis-plus:
+  configuration:
+    # 默认启用驼峰命名方式 此处数据库不需要驼峰命名
+    map-underscore-to-camel-case: false
